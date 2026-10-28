@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "justindmyers-web-kit",
+  "description": "A base Claude Code setup for React/TypeScript/Tailwind projects.",
+  "owner": { "name": "Justin Myers", "url": "https://github.com/justindmyers" },
+  "plugins": [
+    {
+      "name": "web-core",
+      "description": "Stack-agnostic guards: Explore on Haiku, no git-hook bypass, project command blocks, short PR bodies, comment length, banned imports.",
+      "author": { "name": "Justin Myers" },
+      "source": "./plugins/web-core",
+      "category": "development"
+    },
+    {
+      "name": "web-react",
+      "description": "React/TypeScript/Tailwind skills, review agents, a component scaffold command, and advisory UI and a11y-test hooks.",
+      "author": { "name": "Justin Myers" },
+      "source": "./plugins/web-react",
+      "category": "development"
+    }
+  ]
+}

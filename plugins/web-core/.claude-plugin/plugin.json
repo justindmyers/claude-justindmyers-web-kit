@@ -1,0 +1,8 @@
+{
+  "name": "web-core",
+  "version": "0.1.0",
+  "description": "Stack-agnostic Claude Code guards: Explore on Haiku, no git-hook bypass, project command blocks, short PR bodies, comment length, banned imports.",
+  "author": { "name": "Justin Myers", "url": "https://github.com/justindmyers" },
+  "license": "MIT",
+  "keywords": ["hooks", "guards", "pull-requests", "comments"]
+}

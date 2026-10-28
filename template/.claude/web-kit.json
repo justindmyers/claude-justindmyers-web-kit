@@ -1,0 +1,23 @@
+{
+  "sourceRoots": ["src/"],
+  "sharedLibrary": null,
+  "allowedCssFiles": ["index.css", "globals.css", "theme.css"],
+  "a11yTestPattern": "expectNoA11yViolations|toHaveNoViolations",
+  "themeTokenHint": "Use a theme token from src/theme.css if one maps exactly.",
+  "bannedImports": [
+    {
+      "pattern": "from ['\"]@headlessui/react['\"]",
+      "message": "Use react-aria-components instead of @headlessui/react."
+    }
+  ],
+  "blockedCommands": [
+    {
+      "pattern": "git\\s+push\\b.*(--force\\b|-f\\b)",
+      "message": "Do not force-push. Add a commit or merge the base branch in."
+    }
+  ],
+  "prBody": {
+    "descriptionHeading": "Description",
+    "stepsHeading": "Validation Steps"
+  }
+}

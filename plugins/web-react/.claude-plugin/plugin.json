@@ -1,0 +1,8 @@
+{
+  "name": "web-react",
+  "version": "0.1.0",
+  "description": "React/TypeScript/Tailwind conventions for Claude Code: skills, review agents, a component scaffold command, and advisory UI and a11y-test hooks.",
+  "author": { "name": "Justin Myers", "url": "https://github.com/justindmyers" },
+  "license": "MIT",
+  "keywords": ["react", "typescript", "tailwind", "accessibility", "testing"]
+}

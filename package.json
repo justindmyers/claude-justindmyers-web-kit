@@ -1,0 +1,12 @@
+{
+  "name": "claude-justindmyers-web-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A base Claude Code setup for React/TypeScript/Tailwind projects.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/"
+  }
+}
