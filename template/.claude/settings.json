@@ -3,11 +3,15 @@
   "extraKnownMarketplaces": {
     "justindmyers-web-kit": {
       "source": { "source": "github", "repo": "justindmyers/claude-justindmyers-web-kit" }
+    },
+    "asd-ste100-skill": {
+      "source": { "source": "github", "repo": "danyuchn/asd-ste100-skill" }
     }
   },
   "enabledPlugins": {
     "web-core@justindmyers-web-kit": true,
-    "web-react@justindmyers-web-kit": true
+    "web-react@justindmyers-web-kit": true,
+    "asd-ste100@asd-ste100-skill": true
   },
   "permissions": {
     "allow": [

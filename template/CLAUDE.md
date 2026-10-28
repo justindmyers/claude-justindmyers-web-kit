@@ -24,6 +24,7 @@
 - **Accessible by default.** Every control is keyboard-operable and has an accessible name. See the `accessibility` skill.
 - **Test what you write, then run it.** Each new component gets a colocated test with an axe check. See the `testing-conventions` skill.
 - **Commit, push or open a PR only when asked.**
+- **Write plans and docs in Simplified Technical English.** This includes plan files, READMEs, specs and skill docs, but not chat replies or code comments. Use the `asd-ste100` skill, and run its linter before you finish.
 
 ## Scratch output
 

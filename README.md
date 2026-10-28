@@ -33,7 +33,7 @@ The warning hooks never block. The blocking hooks exit with code 2 and tell Clau
 1. Copy the `template/` folder into the project root.
 2. Edit `CLAUDE.md`. Replace each `<...>` placeholder.
 3. Edit `.claude/web-kit.json` for the project. See [Configuration](#configuration).
-4. Start Claude Code in the project. Accept the prompt to trust the marketplace and install the two plugins.
+4. Start Claude Code in the project. Accept the prompts to trust the marketplaces and install the plugins.
 
 To install the plugins by hand:
 
@@ -41,6 +41,17 @@ To install the plugins by hand:
 /plugin marketplace add justindmyers/claude-justindmyers-web-kit
 /plugin install web-core@justindmyers-web-kit
 /plugin install web-react@justindmyers-web-kit
+```
+
+## Companion skill: asd-ste100
+
+The template tells Claude to write plans and docs in Simplified Technical English (ASD-STE100). The [asd-ste100 skill](https://github.com/danyuchn/asd-ste100-skill) by Dustin Yuchen Teng supplies those rules and a linter. This kit does not include a copy.
+
+The template `.claude/settings.json` turns on the `asd-ste100` plugin from the upstream marketplace. The plugin installs with the kit plugins and follows upstream updates. To install it by hand:
+
+```text
+/plugin marketplace add danyuchn/asd-ste100-skill
+/plugin install asd-ste100@asd-ste100-skill
 ```
 
 ## Configuration
